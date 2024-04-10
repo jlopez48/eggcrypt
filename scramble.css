@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+	text-align: center;
+}
+.saveButton {
+  background-color: #ffeba7;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #000000;
+  color: #ffeba7;
+}
